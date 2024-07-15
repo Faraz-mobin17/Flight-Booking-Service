@@ -1,5 +1,5 @@
 module.exports = {
-  ErrorResponse: require("./error-response"),
-  SuccessResponse: require("./success-response"),
+  ApiError: require("./api-error"),
+  ApiResponse: require("./api-response"),
   Enums: require("./enums"),
 };
